@@ -1,0 +1,35 @@
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\Content\5x2 Button.xnb
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\Content\Pixel.xnb
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\The Trial of Kanoor.exe
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\The Trial of Kanoor.pdb
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\MonoGame.Framework.dll
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.dll
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.XInput.dll
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\MonoGame.Framework.xml
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.xml
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.XInput.xml
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\obj\x86\Debug\The Trial of Kanoor.csprojResolveAssemblyReference.cache
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\obj\x86\Debug\The Trial of Kanoor.exe
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\obj\x86\Debug\The Trial of Kanoor.pdb
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\Content\StaticGradient4096.xnb
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\Content\PlatformPlan.xnb
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\Content\Overlay.xnb
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\Content\Health.xnb
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\Content\HealthBracket.xnb
+c:\users\frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\Content\Reticule.xnb
+C:\Users\Frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\Content\2Pix.xnb
+C:\Users\Frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\Content\ArmorSheet.xnb
+C:\Users\Frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\Content\ItemDesc.xnb
+C:\Users\Frankie\documents\visual studio 2017\Projects\The Trial of Kanoor\The Trial of Kanoor\bin\Windows\x86\Debug\Content\itemName.xnb

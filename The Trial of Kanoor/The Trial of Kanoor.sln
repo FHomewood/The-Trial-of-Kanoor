@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Trial of Kanoor", "The Trial of Kanoor\The Trial of Kanoor.csproj", "{2D17CD2C-ED90-4DA9-94E2-2022EA7814D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D17CD2C-ED90-4DA9-94E2-2022EA7814D3}.Debug|x86.ActiveCfg = Debug|x86
+		{2D17CD2C-ED90-4DA9-94E2-2022EA7814D3}.Debug|x86.Build.0 = Debug|x86
+		{2D17CD2C-ED90-4DA9-94E2-2022EA7814D3}.Release|x86.ActiveCfg = Release|x86
+		{2D17CD2C-ED90-4DA9-94E2-2022EA7814D3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

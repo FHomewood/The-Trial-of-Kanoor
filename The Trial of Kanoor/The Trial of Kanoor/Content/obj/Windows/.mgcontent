@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/Pixel.jpg</File>
+    <File>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/5x2 Button.png</File>
+    <File>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/StaticGradient4096.jpg</File>
+    <File>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/PlatformPlan.png</File>
+    <File>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/Overlay.png</File>
+    <File>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/Health.png</File>
+    <File>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/HealthBracket.png</File>
+    <File>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/Reticule.png</File>
+    <File>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/2Pix.jpg</File>
+    <File>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/ArmorSheet.png</File>
+    <File>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/ItemDesc.spritefont</File>
+    <File>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/itemName.spritefont</File>
+  </SourceFiles>
+</SourceFileCollection>
