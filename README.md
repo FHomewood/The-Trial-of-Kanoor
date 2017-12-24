@@ -2,7 +2,7 @@
 
 The Trial of Kanoor is a Work-In-Progress game developed in C# using the MonoGame (XNA) framework.
 
-### (Image)
+<img src="https://i.imgur.com/YnhFEGW.png"/>
 
 It's a platform scroller in which the difficulty level increases as the user climbs up a tower, the motivation for the user is self improvement, enemies drop equipment which can be used to slay better enemies that drop more effective equipment. My inspiration for creating this project stems from "The Realm of the Mad God" video game that had players inspired by only their own improvement. Recreating this in my own project would be very fulfulling.
 
