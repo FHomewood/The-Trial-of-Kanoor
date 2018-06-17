@@ -127,7 +127,7 @@ namespace The_Trial_of_Kanoor
                 elapsedFrames++;
                 characterCam.X = Jim.location.X;
                 characterCam.Y = Jim.location.Y;
-                characterCam.Zoom = (float)graphics.PreferredBackBufferWidth / 1214;
+                characterCam.Zoom = (float)graphics.PreferredBackBufferWidth / 300;
                 mapCam.Zoom = (float)graphics.PreferredBackBufferWidth / 1214;
                 newK = Keyboard.GetState();
                 newM = Mouse.GetState();
@@ -141,6 +141,7 @@ namespace The_Trial_of_Kanoor
                     camloc++;
                 mapCam.Y += (camLocs[camloc] - mapCam.Y) / 100;
                 mapCam.Update(new Vector2(607, mapCam.Y));
+                characterCam.Update(new Vector2(characterCam.X,characterCam.Y));
 
                 foreach (Ghost X in enemylist)
                 {
