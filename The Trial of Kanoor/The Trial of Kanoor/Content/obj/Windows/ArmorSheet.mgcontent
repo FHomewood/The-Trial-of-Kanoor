@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/ArmorSheet.png</SourceFile>
+  <SourceFile>E:/Frankie/Documents/GitHub/The-Trial-of-Kanoor/The Trial of Kanoor/The Trial of Kanoor/Content/ArmorSheet.png</SourceFile>
   <SourceTime>2017-08-04T18:34:59.0364206+01:00</SourceTime>
-  <DestFile>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/bin/Windows/ArmorSheet.xnb</DestFile>
-  <DestTime>2017-08-13T09:11:35.3452863+01:00</DestTime>
+  <DestFile>E:/Frankie/Documents/GitHub/The-Trial-of-Kanoor/The Trial of Kanoor/The Trial of Kanoor/Content/bin/Windows/ArmorSheet.xnb</DestFile>
+  <DestTime>2018-06-17T13:37:02.8569336+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T15:05:36+00:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

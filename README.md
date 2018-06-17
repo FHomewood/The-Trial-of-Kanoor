@@ -13,4 +13,3 @@ This software is produced by me, an individual developer, for the purposes of se
 * Improve my ability to create different enemy NPC patterns.
 * Implement static maps that both NPC and Users can traverse.
 * Develop an interactive inventory system.
-

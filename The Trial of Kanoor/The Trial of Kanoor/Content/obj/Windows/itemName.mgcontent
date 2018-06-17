@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/itemName.spritefont</SourceFile>
+  <SourceFile>E:/Frankie/Documents/GitHub/The-Trial-of-Kanoor/The Trial of Kanoor/The Trial of Kanoor/Content/itemName.spritefont</SourceFile>
   <SourceTime>2017-08-03T08:47:57.8507997+01:00</SourceTime>
-  <DestFile>C:/Users/Frankie/documents/visual studio 2017/Projects/The Trial of Kanoor/The Trial of Kanoor/Content/bin/Windows/itemName.xnb</DestFile>
-  <DestTime>2017-08-03T08:51:23.6228215+01:00</DestTime>
+  <DestFile>E:/Frankie/Documents/GitHub/The-Trial-of-Kanoor/The Trial of Kanoor/The Trial of Kanoor/Content/bin/Windows/itemName.xnb</DestFile>
+  <DestTime>2018-06-17T13:37:03.352839+01:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2017-03-01T15:05:36+00:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

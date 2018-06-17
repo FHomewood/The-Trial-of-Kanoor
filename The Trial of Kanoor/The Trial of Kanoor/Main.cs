@@ -13,7 +13,7 @@ namespace The_Trial_of_Kanoor
         SpriteFont fontItemName, fontItemDesc;
         Texture2D texBackground, pixel, evenPix, texPlatforms, texForeground, texBracket, texHealth, texReticule, texSpritesheet;
         Color[,] PlatformArray;
-        Camera cam;
+        Camera mapCam, characterCam;
         float[] camLocs = new float[] { 342, 683, 1024, 1366, 1706, 2048, 2389, 2731, 3078, 3410, 3754 };
         int camloc = 10;
         int elapsedFrames;
@@ -36,8 +36,9 @@ namespace The_Trial_of_Kanoor
         }
         protected override void Initialize()
         {
-            cam = new Camera(GraphicsDevice.Viewport);
-            cam.Y = camLocs[camloc];
+            characterCam = new Camera(GraphicsDevice.Viewport);
+            mapCam = new Camera(GraphicsDevice.Viewport);
+            mapCam.Y = camLocs[camloc];
             oldM = Mouse.GetState();
             oldK = Keyboard.GetState();
             base.Initialize();
@@ -72,17 +73,31 @@ namespace The_Trial_of_Kanoor
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.Transparent);
-            spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, null, null, null, null, cam.Transform);
-            spriteBatch.Draw(texBackground, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);
-            spriteBatch.Draw(texPlatforms, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);
-            spriteBatch.Draw(texForeground, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);
-            foreach (Enemy X in enemylist) if (X != null) X.Draw(spriteBatch, evenPix);
-            foreach (Arrow X in arrowlist) if (X != null) X.Draw(spriteBatch, pixel);
-            Jim.CamDraw(graphics, spriteBatch, cam, evenPix, texReticule, newM);
-            spriteBatch.End();
+            if (Keyboard.GetState().IsKeyDown(Keys.LeftShift))
+            {
+                spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, null, null, null, null, characterCam.Transform);
+                    spriteBatch.Draw(texBackground, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);
+                    spriteBatch.Draw(texPlatforms, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);
+                    spriteBatch.Draw(texForeground, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);
+                    foreach (Enemy X in enemylist) if (X != null) X.Draw(spriteBatch, evenPix);
+                    foreach (Arrow X in arrowlist) if (X != null) X.Draw(spriteBatch, pixel);
+                    Jim.CamDraw(graphics, spriteBatch, characterCam, evenPix, texReticule, newM);
+                spriteBatch.End();
+            }
+            else
+            {
+                spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, null, null, null, null, mapCam.Transform);
+                spriteBatch.Draw(texBackground, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);
+                spriteBatch.Draw(texPlatforms, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);
+                spriteBatch.Draw(texForeground, Vector2.Zero, null, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 0f);
+                foreach (Enemy X in enemylist) if (X != null) X.Draw(spriteBatch, evenPix);
+                foreach (Arrow X in arrowlist) if (X != null) X.Draw(spriteBatch, pixel);
+                Jim.CamDraw(graphics, spriteBatch, mapCam, evenPix, texReticule, newM);
+                spriteBatch.End();
+            }
 
             spriteBatch.Begin();
-            Jim.HUDDraw(graphics, spriteBatch, cam, fontItemName, fontItemDesc, texHealth, pixel, texSpritesheet, newM);
+            Jim.HUDDraw(graphics, spriteBatch, mapCam, fontItemName, fontItemDesc, texHealth, pixel, texSpritesheet, newM);
             spriteBatch.End();
             base.Draw(gameTime);
         }
@@ -110,19 +125,22 @@ namespace The_Trial_of_Kanoor
             if (Condition)
             {
                 elapsedFrames++;
-                cam.Zoom = (float)graphics.PreferredBackBufferWidth / 1214;
+                characterCam.X = Jim.location.X;
+                characterCam.Y = Jim.location.Y;
+                characterCam.Zoom = (float)graphics.PreferredBackBufferWidth / 1214;
+                mapCam.Zoom = (float)graphics.PreferredBackBufferWidth / 1214;
                 newK = Keyboard.GetState();
                 newM = Mouse.GetState();
                 if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                     Exit();
                 Jim.ResolveCollision(PlatformArray, newK, oldK);
-                Jim.Update(graphics, cam, arrowlist, newK, oldK, newM, oldM);
+                Jim.Update(graphics, mapCam, arrowlist, newK, oldK, newM, oldM);
                 if (Jim.location.Y - camLocs[camloc] < 200 && camloc > 0)
                     camloc--;
                 if (Jim.location.Y - camLocs[camloc] > 200 && camloc < 10)
                     camloc++;
-                cam.Y += (camLocs[camloc] - cam.Y) / 100;
-                cam.Update(new Vector2(607, cam.Y));
+                mapCam.Y += (camLocs[camloc] - mapCam.Y) / 100;
+                mapCam.Update(new Vector2(607, mapCam.Y));
 
                 foreach (Ghost X in enemylist)
                 {
@@ -143,7 +161,7 @@ namespace The_Trial_of_Kanoor
                     for (int i = 0; i < enemylist.Length; i++)
                         if (enemylist[i] == null)
                         {
-                            enemylist[i] = new Ghost(new Vector2(cam.X, cam.Y));
+                            enemylist[i] = new Ghost(new Vector2(mapCam.X, mapCam.Y));
                             nullcount++;
                             break;
                         }
@@ -153,7 +171,7 @@ namespace The_Trial_of_Kanoor
                         for (int i = 0; i < enemylist.Length; i++)
                             if (enemylist[x].lifeSpan < enemylist[i].lifeSpan)
                                 x = i;
-                        enemylist[x] = new Ghost(new Vector2(cam.X, cam.Y));
+                        enemylist[x] = new Ghost(new Vector2(mapCam.X, mapCam.Y));
                     }
                 }
                 if (newK.IsKeyDown(Keys.P))
